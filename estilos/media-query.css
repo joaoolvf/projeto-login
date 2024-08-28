@@ -1,0 +1,53 @@
+/* 
+Typical device breakpoints do W3C
+
+-Pequenas telas - até 600px
+-Celulares - de 600px até 768px
+-Tablets - de 768px até 992px
+-Desktop - de 992px até 1200px
+-Grandes telas - acima de 1200px
+ */
+
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #0D2636, #2b516781);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #0D2636, #2b516781);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}

@@ -21,7 +21,7 @@ Azul claro 2: #85A3B6
  }
 
  body, html {
-    background-color: #4F748B;
+    background-color: #0D2636;
     height: 100vh;
     width: 100vw;
  }
@@ -38,12 +38,16 @@ Azul claro 2: #85A3B6
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: #a7c5d7;
+    background-color: #c1dbec;
     height: 500px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.337);
+    box-shadow: 0px 0px 10px hsla(202, 23%, 64%, 0.412);
+
+    /* transição suave */
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
  }
 
  section#login > div#imagem {
