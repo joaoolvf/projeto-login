@@ -15,7 +15,8 @@ Typical device breakpoints do W3C
     }
 
     section#login {
-        width: 90vw;
+        height: 285px;
+        width: 80vw;
     }
 
     section#login > div#imagem {
@@ -38,6 +39,8 @@ Typical device breakpoints do W3C
 
     section#login {
         width: 950px;
+        height: 600px;
+
     }
 
     section#login > div#imagem {

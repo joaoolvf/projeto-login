@@ -43,18 +43,18 @@ Azul claro 2: #85A3B6
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    
     background-color: #c1dbec;
-    height: 500px;
+    height: 530px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px hsla(202, 23%, 64%, 0.412);
-
+    
     /* transição suave */
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
  }
 
  section#login > div#imagem {
@@ -76,3 +76,64 @@ Azul claro 2: #85A3B6
  div#formulario > p {
    font-size: 1em;
  }
+
+ div.campo > label {
+   display: none;
+ }
+
+div.campo > span {
+  font-size: 1.8em;
+  width: 40px;
+  padding: 5px;
+}
+div.campo > input {
+   background-color: transparent;
+   border: 1px solid #4F748B;
+   font-size: em;
+   width: calc(100% - 44px);
+   height: 100%;
+   border-radius: 15px;
+   padding: 8px;
+   transform: translateY(-10px);
+}
+
+div.campo > input:focus-within {
+   background-color: #a1ceec;
+}
+
+ form > input[type=submit] {
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   background-color: #4F748B;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   margin-bottom: 5px;
+   cursor: pointer;
+ }
+
+ form > input[type=submit]:hover {
+   background-color: #365669;
+ }
+
+ form > button {
+   display: block;
+   background-color: #C1DBEC;
+   border: 1.5px solid #4F748B;
+   border-radius: 15px;
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   font-size: 1em;
+   color: #4F748B;
+   cursor: pointer;
+ }
+
+form > button:hover {
+   border: 1.5px solid #365669 ;
+   background-color: #365669;
+   color: white;
+ }
+ 
