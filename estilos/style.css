@@ -32,6 +32,13 @@ Azul claro 2: #85A3B6
     width: 100vw;
  }
 
+ main > h1 {
+   font-size: 2em;
+   margin-top: 20px;
+   text-align: center;
+   color: white;
+ }
+
  section#login {
     position: absolute;
     top: 50%;
@@ -60,4 +67,12 @@ Azul claro 2: #85A3B6
  section#login > div#formulario {
     display: block;
     padding: 10px;
+ }
+
+ div#formulario > h1 {
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ div#formulario > p {
+   font-size: 1em;
  }
