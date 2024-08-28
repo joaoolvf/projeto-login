@@ -9,7 +9,7 @@ Typical device breakpoints do W3C
  */
 
 @charset "UTF-8";
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 481px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, #0D2636, #2b516781);
     }
